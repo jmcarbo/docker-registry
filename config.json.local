@@ -1,0 +1,4 @@
+{ "api": { "addr": "127.0.0.1:9999" },
+"storage": { "type": "local", "local": { "root": "/tmp" } }
+
+}

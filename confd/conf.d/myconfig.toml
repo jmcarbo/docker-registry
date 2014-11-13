@@ -1,0 +1,6 @@
+[template]
+src = "myconfig.conf.tmpl"
+dest = "/etc/registry/conf.json"
+keys = [
+    "/registry",
+]

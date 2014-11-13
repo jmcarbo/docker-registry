@@ -1,0 +1,4 @@
+bin/registry
+run.sh
+build.sh
+config/s3_test.json

@@ -1,0 +1,9 @@
+{ "api": { "addr": "0.0.0.0:5000" },
+"storage": { "type": "s3", "s3": { 
+"region": "{{ getv "/registry/region"}}",
+"bucket": "{{ getv "/registry/bucket"}}",
+"buffer_dir": "{{ getv "/registry/buffer"}}",
+"access_key": "{{ getv "/registry/key"}}",
+"secrete_key": "{{ getv "/registry/key"}}",
+"root": "{{ getv "/registry/root"}}" } }
+}
